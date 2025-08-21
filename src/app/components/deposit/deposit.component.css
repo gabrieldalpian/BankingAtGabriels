@@ -1,0 +1,49 @@
+.deposit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+  padding: 28px 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+  max-width: 400px;
+  margin: 40px auto;
+  gap: 16px;
+}
+
+.deposit-input {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 18px;
+  border: 1.5px solid #bdbdbd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #fff;
+  margin-right: 0;
+}
+
+.deposit-input:focus {
+  border-color: #388e3c;
+  box-shadow: 0 0 0 2px #c8e6c9;
+}
+
+.deposit-btn {
+  padding: 13px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: white;
+  background: linear-gradient(90deg, #43a047 60%, #388e3c 100%);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(67,160,71,0.10);
+  transition: background 0.2s, transform 0.1s;
+  margin-left: 0;
+}
+
+.deposit-btn:hover {
+  background: linear-gradient(90deg, #388e3c 60%, #43a047 100%);
+  transform: translateY(-2px) scale(1.03);
+}

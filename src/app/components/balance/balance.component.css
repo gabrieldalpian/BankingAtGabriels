@@ -1,0 +1,32 @@
+.balance-container {
+  display: flex;
+  align-items: center;   
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.balance {
+  font-size: 17px;
+  color: green;
+  font-family: 'Zen Dots';
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.money {
+  border-radius: 8px;
+  background-color: rgb(95, 96, 95);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 15px 25px;
+  color: white;
+}
+.money-value {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  padding: 10px 100px;
+}
