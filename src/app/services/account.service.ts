@@ -5,7 +5,7 @@ import { tap } from 'rxjs/operators';
 
 @Injectable({ providedIn: 'root' })
 export class AccountService {
-  private apiUrl = 'https://changing-timmie-gabriel1-077c2b00.koyeb.app/api/account';
+  private apiUrl = 'https://bankingatgabriels.onrender.com/api/account';
   balanceChanged = new Subject<void>();
 
   constructor(private http: HttpClient) {}
